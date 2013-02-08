@@ -348,6 +348,7 @@ uev_add_path (struct uevent *uev, struct vectors * vecs)
  * 0: added
  * 1: error
  * 2: blacklisted
+ * 3: retry
  */
 int
 ev_add_path (char * devname, struct vectors * vecs)
